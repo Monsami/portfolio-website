@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <header>   
+    <img src="image/2.png" alt="error" width="150" height="150" >
+   <h1>Creat a New Account</h1>
+ </header>
+   <hr>
+  <main> 
+    <section1>
+   <h2>Registration Form</h2>
+   <ol> 
+    <li>Fill out your personal information</li>
+    <li>Review the available plans in the table below</li>
+    <li>submit your application</li>
+   </ol>
+   Note:Make sure your email is active.
+    </section1>    
+    <hr>
+    <section2>   
+     <h2>Available courses</h2>
+     <table border="5">
+     <tr>
+     <td> track </td>
+     <td> course name </td>
+     <td> feeds</td>
+     </tr>
+     <tr>    
+        <td rowspan="2"> web development </td>
+        <td> HTML Basic</td>
+        <td>$20</td>
+     </tr>
+     <tr>
+        <td> CSS styling </td>
+        <td>$30</td>
+     </tr>
+     <tr>    
+     <td colspan="2"> Full Track Disccount </td>
+     <td>$40</td>
+     </tr>
+     </table>
+     </section2>
+ <hr>
+  <section3>
+  <h3>Registration Form</h3>
+  Full Name: <input type="text" name="full name" placeholder="Enter your name" required>
+  <br>
+  <br>
+  Email address: <input type="email" name="email" required>
+  <br>
+  <br>
+  Password: <input type="password" name="password" required>
+  <br>
+  <br>
+  Gender:
+  <input type="radio" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" value="female">
+  <label for="female">Female</label>
+  <br>
+  <br>
+  choose a plan:
+  <select name="plan" required>
+    <option value="">Select a plan</option>
+    <option value="html">HTML Basic - $20</option>
+    <option value="css">CSS Styling - $30</option>
+    <option value="full">Full Track Discount - $40</option>
+ </select>
+
+ <br>
+ <br>
+ tell us about yourself:
+ <br>
+ <textarea name="about" rows="4" cols="50" placeholder="Write a short bio"></textarea>
+ <br>
+ <br>
+
+ <input type="checkbox" name="terms" required>
+ <label for="terms">I agree to the terms and conditions</label>
+ <br>
+ <br>
+ <button type="submit">Submit</button>
+ </section3> 
+</main>
+<hr>
+<footer>
+If you face any issues, please contact us:
+ <li>
+    <a href="tel:+01000000000">contact suspport</a>
+</li>
+&copy; 2026 Example website.
+</footer>
+</body>
+</html>
